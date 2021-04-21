@@ -1,3 +1,5 @@
+import './Categories.css'
+
 const Categories = () => {
     return(
       <div className='Categories'>
@@ -8,11 +10,14 @@ const Categories = () => {
           </div>
           <ol className="Categories-Main-Display">
             <li>A Boy's Name</li>
+            <li>A Boy's Name</li>
+            <li>A Boy's Name</li>
+            <li>A Boy's Name</li>
           </ol>
         </div>
         <div className="Categories-Secondary">
           <h1 className='Categories-Secondary-H1'>NEXT LIST</h1>
-        </div>
+        </div>  
       </div>
     );
   }
